@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    background: #000;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+.pure-g {
+    padding: .5em 0;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+header {
+    position: relative;
+    background: #2064a5;
+    color: #fff;
+    padding: 1em;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,155 @@
+.content {
+    margin-left: 2vw;
+}
+
+.temp {
+    font-size: 4rem;
+}
+
+.feel-temp {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.min-max-temp {
+    clear: both;
+}
+
+
+/*.w-icon::before {
+    font-size: 5rem;
+}
+
+.wd-icon::before {
+    font-size: 3rem;
+}*/
+
+.w-icon {
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+}
+
+.wd-icon {
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+}
+
+.partlysunny {
+    background-image: url('/dist/assets/img/part-cloudy.png');
+}
+
+.rainy {
+    background-image: url('/dist/assets/img/rain.png');
+}
+
+.sunny {
+    background-image: url('/dist/assets/img/sunny.png');
+}
+
+.w-text {
+    font-size: 1.2rem;
+}
+
+.min-max-temp span {
+    padding-left: 10px;
+    font-size: .8rem;
+}
+
+.min-max-temp span::before {
+    padding-right: 5px;
+    color: #999;
+}
+
+span.active-temp::before {
+    color: #FFF;
+}
+
+.location {
+    font-size: 2rem;
+    line-height: 40px;
+    padding: .5em 0;
+    background: #000;
+    border: none;
+    outline: none;
+}
+
+.location option {
+    border: none;
+    outline: none;
+}
+
+.time {
+    font-size: 1.25rem;
+    color: #CCC;
+}
+
+.icon::before {
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    width: 100%;
+    padding: 15px 0;
+    height: 120px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+}
+
+.day-cell {
+    width: 55px;
+    padding: 0 15px;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+}
+
+.day-cell .min-max-temp span {
+    padding-left: 0px;
+}
+
+.day-cell .date {
+    font-size: .8rem;
+    color: #999;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+    .content {
+        margin-left: 0;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    .temp {
+        font-size: 3rem;
+    }
+}

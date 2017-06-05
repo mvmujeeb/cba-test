@@ -1,0 +1,320 @@
+let data: any = [];
+data['Melbourne'] =
+    {
+        city: {
+            name: 'Melbourne',
+            coord: {
+                lon: '144.57',
+                lat: '37.48'
+            },
+            Elevation: 31,
+            country: 'AUS',
+            timezone:'10'
+        },
+        list: [
+            {
+                dt: '05/06/2017 21:40',
+                temp: '11.1',
+                pressure: '1035',
+                humidity: '71',
+                weather: 'Partly Cloudy',
+                speed: '9',
+                direction: 'WNW',
+                feels: '10.5',
+                rain: '.4',
+            },
+            {
+                dt: '05/06/2017 21:20',
+                temp: '10.9',
+                pressure: '1035',
+                humidity: '72',
+                weather: 'Clear',
+                speed: '9',
+                direction: 'W',
+                feels: '10.2',
+                rain: '.4',
+            },
+            {
+                dt: '05/06/2017 21:40',
+                temp: '11.1',
+                pressure: '1035',
+                humidity: '71',
+                weather: 'Clear',
+                speed: '7',
+                direction: 'WSW',
+                feels: '10.5',
+                rain: '.4',
+            },
+            {
+                dt: '05/06/2017 21:00',
+                temp: '11.3',
+                pressure: '1035',
+                humidity: '71',
+                weather: 'Rain',
+                speed: '9',
+                direction: 'W',
+                feels: '10.5',
+                rain: '.4',
+            },
+            {
+                dt: '05/06/2017 20:40',
+                temp: '11.6',
+                pressure: '1035',
+                humidity: '71',
+                weather: 'Partly Cloudy',
+                speed: '9',
+                direction: 'W',
+                feels: '11.6',
+                rain: '.4',
+            },
+            {
+                dt: '05/06/2017 2:20',
+                temp: '11.9',
+                pressure: '1035',
+                humidity: '71',
+                weather: 'Partly Cloudy',
+                speed: '9',
+                direction: 'W',
+                feels: '11',
+                rain: '.4',
+            },
+            {
+                dt: '05/06/2017 19:40',
+                temp: '11.1',
+                pressure: '1035',
+                humidity: '71',
+                weather: 'Partly Cloudy',
+                speed: '9',
+                direction: 'WNW',
+                feels: '11.2',
+                rain: '.4',
+            },
+            {
+                dt: '05/06/2017 19:10',
+                temp: '12',
+                pressure: '1035',
+                humidity: '71',
+                weather: 'Partly Cloudy',
+                speed: '9',
+                direction: 'W',
+                feels: '12.5',
+                rain: '.4',
+            },
+
+        ]
+    };
+
+data['Sydney'] =
+    {
+        city: {
+            name: 'Sydney',
+            coord: {
+                lon: '151.2093',
+                lat: '33.8688'
+            },
+            Elevation: 330,
+            country: 'AUS',
+            timezone:'10'
+        },
+        list: [
+
+            {
+                dt: '05/06/2017 20:10',
+                temp: '13',
+                pressure: '1030',
+                humidity: '45',
+                weather: 'Rain',
+                speed: '16',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 19:10',
+                temp: '13',
+                pressure: '1030',
+                humidity: '45',
+                weather: 'Clear',
+                speed: '16',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 18:30',
+                temp: '13',
+                pressure: '1030',
+                humidity: '45',
+                weather: 'Partly Cloudy',
+                speed: '16',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 18:10',
+                temp: '13',
+                pressure: '1030',
+                humidity: '45',
+                weather: 'Partly Cloudy',
+                speed: '16',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 17:50',
+                temp: '13',
+                pressure: '1030',
+                humidity: '45',
+                weather: 'Partly Cloudy',
+                speed: '16',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 17:10',
+                temp: '13',
+                pressure: '1030',
+                humidity: '45',
+                weather: 'Rain',
+                speed: '16',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 16:10',
+                temp: '13',
+                pressure: '1030',
+                humidity: '45',
+                weather: 'Partly Cloudy',
+                speed: '16',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            }
+
+        ]
+    };
+
+data['Adelaide'] =
+    {
+        city: {
+            id: '524901',
+            name: 'Adelaide',
+            coord: {
+                lon: '138.6007',
+                lat: '34.9285'
+            },
+            Elevation: 55,
+            country: 'AUS',
+            timezone:'9.5'
+        },
+        list: [
+
+            {
+                dt: '05/06/2017 20:30',
+                temp: '8',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Clear',
+                speed: '6',
+                direction: 'WSW',
+                feels: '6.7',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 19:30',
+                temp: '8',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Rain',
+                speed: '6',
+                direction: 'WSW',
+                feels: '6.7',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 18:30',
+                temp: '8',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Partly Cloudy',
+                speed: '6',
+                direction: 'WSW',
+                feels: '6.7',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 17:30',
+                temp: '10',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Partly Cloudy',
+                speed: '6',
+                direction: 'WSW',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 16:10',
+                temp: '10',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Rain',
+                speed: '0',
+                direction: '',
+                feels: '6.7',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 15:10',
+                temp: '13',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Rain',
+                speed: '0',
+                direction: '',
+                feels: '10',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 14:10',
+                temp: '13',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Partly Cloudy',
+                speed: '0',
+                direction: '',
+                feels: '13',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 13:10',
+                temp: '13',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Partly Cloudy',
+                speed: '0',
+                direction: '',
+                feels: '13',
+                rain: '0',
+            },
+            {
+                dt: '05/06/2017 12:10',
+                temp: '13.6',
+                pressure: '1037',
+                humidity: '83',
+                weather: 'Rain',
+                speed: '0',
+                direction: '',
+                feels: '13.6',
+                rain: '0',
+            }
+        ]
+    };
+
+
+export const hourlyWeatherData = data;

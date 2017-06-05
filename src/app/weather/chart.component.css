@@ -1,0 +1,9 @@
+.content {
+    margin-left: 2vw;
+}
+
+.highcharts-root,
+weather-chart {
+    height: 200px;
+    width: 100%;
+}
